@@ -1,0 +1,24 @@
+diff -urN -x CYGWIN-PATCHES -x 'aclocal.m4*' -x ltmain.sh -x 'config.*' -x depcomp -x install-sh -x missing -x mkinstalldirs -x autom4te.cache -x '*compile' -x Makefile.in.in -x 'intltool*.in' -x 'xml-i18n-*.in' -x '*.pyc' -x '*.mo' -x '*.gmo' -x ABOUT-NLS -x Makevars.template -x COPYING -x INSTALL -x mdate-sh -x '*.orig' -x '*.rej' -x '*~' -x '*.temp' -x texinfo.tex -x ylwrap -x gnome-doc-utils.make -x gnome-doc-utils.m4 -x intltool.m4 -x omf.make -x xmldocs.make origsrc/msql-3.8/src/msqld/main/main.c src/msql-3.8/src/msqld/main/main.c
+--- origsrc/msql-3.8/src/msqld/main/main.c	2004-12-19 17:47:54.000000000 -0600
++++ src/msql-3.8/src/msqld/main/main.c	2007-02-26 16:33:06.561239900 -0600
+@@ -501,7 +501,7 @@
+ 
+ void usage()
+ {
+-	printf("Usage :  msql2d [-f ConfFile]\n\n");
++	printf("Usage :  msql3d [-f ConfFile]\n\n");
+ }
+ 
+ 
+diff -urN -x CYGWIN-PATCHES -x 'aclocal.m4*' -x ltmain.sh -x 'config.*' -x depcomp -x install-sh -x missing -x mkinstalldirs -x autom4te.cache -x '*compile' -x Makefile.in.in -x 'intltool*.in' -x 'xml-i18n-*.in' -x '*.pyc' -x '*.mo' -x '*.gmo' -x ABOUT-NLS -x Makevars.template -x COPYING -x INSTALL -x mdate-sh -x '*.orig' -x '*.rej' -x '*~' -x '*.temp' -x texinfo.tex -x ylwrap -x gnome-doc-utils.make -x gnome-doc-utils.m4 -x intltool.m4 -x omf.make -x xmldocs.make origsrc/msql-3.8/src/msqld/main/main_broker.c src/msql-3.8/src/msqld/main/main_broker.c
+--- origsrc/msql-3.8/src/msqld/main/main_broker.c	2005-09-12 23:56:03.000000000 -0500
++++ src/msql-3.8/src/msqld/main/main_broker.c	2007-02-26 16:33:11.530148900 -0600
+@@ -522,7 +522,7 @@
+ 
+ void usage()
+ {
+-	printf("Usage :  msql2d [-f ConfFile]\n\n");
++	printf("Usage :  msql3d [-f ConfFile]\n\n");
+ }
+ 
+ 
